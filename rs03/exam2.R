@@ -26,7 +26,7 @@ bdf$btype <- factor(bdf$btype, levels = c('AB', 'O', 'B', 'A'))
 blood_cnt2 <- table(bdf$btype)
 
 pie(blood_cnt2,
-    init.angle = 90,
+    init.angle = 0,
     col=cm.colors(length(blood_cnt2))
 )
 
